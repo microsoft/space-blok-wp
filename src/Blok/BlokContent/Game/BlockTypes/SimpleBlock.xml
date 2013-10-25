@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="BlokGameObjects.GameLevelObjects.GameLevelData.BlockTypeData">
+    <HitPoints>1</HitPoints>
+    <ScoresPerHitPoint>4</ScoresPerHitPoint>
+    <Appearance>
+      <Model>block01</Model>
+      <Texture>SimpleBlock</Texture>
+      <Color>ff54ff00</Color>
+    </Appearance>
+    <Events>
+      <!--<Item Type="BlokGameObjects.GameLevelObjects.BlockEvents.OnHitPointsEvent">
+        <BlockAction Type="BlokGameObjects.GameLevelObjects.BlockActions.ChangeTypeAction">
+          <NewTypeName>ExtendedBlockType</NewTypeName>
+        </BlockAction>
+        <HitPoints>1</HitPoints>
+      </Item>-->
+    </Events>
+  </Asset>
+</XnaContent>
