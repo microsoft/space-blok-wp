@@ -99,8 +99,8 @@ COMPATIBILITY
 - Windows Phone 7
 
 Tested on: 
-- HTC 7 Mozart
-- LG Optimus 7 
+- Nokia Lumia 800
+- Nokia Lumia 900
 
 Developed with:
 - Microsoft Visual Studio 2010 Express for Windows Phone
