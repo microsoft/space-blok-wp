@@ -6,68 +6,26 @@ possible by destroying game bloks. The game utilises the open-source
 BEPUphysics library to provide 3D simulation and realistic collision handling 
 for the game objects.
 
-For more information about the game, see the Space Blok XNA project pages at
+This project is hosted in GitHub:
 https://github.com/nokia-developer/space-blok-wp
 
+For more information about the game, see the wiki pages:
+https://github.com/nokia-developer/space-blok-wp/wiki
 
-PREREQUISITIES
+This project is compatible with Windows Phone 7 and Windows Phone 8.
+
+
+1. Building and deploying with Microsoft Visual Studio
 -------------------------------------------------------------------------------
 
-- C# basics
-- Development environment 'Microsoft Visual Studio 2010 Express for Windows
-  Phone'
-
-  
-KNOWN ISSUES
--------------------------------------------------------------------------------
-
-Sound effects are not implemented.
-
-  
-BUILD & INSTALLATION INSTRUCTIONS
--------------------------------------------------------------------------------
-
-Preparations
-~~~~~~~~~~~~
-
-Make sure you have the following installed:
- * Windows 7
- * Microsoft Visual Studio 2010 Express for Windows Phone
- * The Windows Phone Developer Tools January 2011 Update:
-   http://download.microsoft.com/download/6/D/6/6D66958D-891B-4C0E-BC32-2DFC41917B11/WindowsPhoneDeveloperResources_en-US_Patch1.msp
- * Windows Phone Developer Tools Fix:
-   http://download.microsoft.com/download/6/D/6/6D66958D-891B-4C0E-BC32-2DFC41917B11/VS10-KB2486994-x86.exe
-
-Build on Microsoft Visual Studio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. Open the SLN file:
-   File > Open Project, select the file BubbleLevel.sln
-2. Select the 'Windows Phone 7 Emulator' target.
-3. Press F5 to build the project and run it on the Windows Phone Emulator.
+1. Open the Solution file (.sln): File > Open Project, select the file
+   `Blok.sln`
+2. Select the target, either emulator or device.
+3. Press F5 to build the project and run it in the selected target. If the
+   selected target is device, the app will deployed on the phone.
 
 
-Deploy to Windows Phone 7
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Preparations:
-1. Register in the App Hub to get a Windows Live ID:
-   http://create.msdn.com/en-us/home/membership
-2. Install Zune for Windows Phone 7:
-   http://www.zune.net/en-us/products/windowsphone7/default.htm
-3. Register your device in your Windows Live account. 
-   Select from Windows: Start > Windows Phone Developer Tools > Windows Phone 
-   Developer Registration
-
-Deploy:
-1. Open the SLN file:
-   File > Open Project, select the file Blok.sln
-2. Connect the device to Windows via USB.
-3. Select the 'Windows Phone 7 Device' target.
-4. Press F5 to build the project and run it on your Windows device.
-
-    
-RUNNING THE APPLICATION
+2. Running the game
 -------------------------------------------------------------------------------
 
 Launch Space Blok on your device. Select New Game on the main menu to start 
@@ -93,20 +51,13 @@ You may look at the info view with some tips about the game by tapping Info in
 the main menu.
 
 
-COMPATIBILITY
+3. Known issues
 -------------------------------------------------------------------------------
 
-- Windows Phone 7
-
-Tested on: 
-- Nokia Lumia 800
-- Nokia Lumia 900
-
-Developed with:
-- Microsoft Visual Studio 2010 Express for Windows Phone
+Sound effects are not implemented.
 
 
-LICENSE
+4. License
 -------------------------------------------------------------------------------
 
 See the license text file delivered with this project. The license file is 
@@ -119,7 +70,7 @@ https://github.com/nokia-developer/space-blok-wp/blob/master/bepu_license.txt
 and http://bepuphysics.codeplex.com/license.
 
 
-CHANGE HISTORY
+5. Version history
 -------------------------------------------------------------------------------
 
 * Version 1.0: The first version.
