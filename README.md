@@ -6,11 +6,13 @@ possible by destroying game bloks. The game utilises the open-source
 BEPUphysics library to provide 3D simulation and realistic collision handling 
 for the game objects.
 
+![Game view](/doc/screenshots/game_view.jpg?raw=true)
+
 This project is hosted in GitHub:
-https://github.com/nokia-developer/space-blok-wp
+https://github.com/Microsoft/space-blok-wp
 
 For more information about the game, see the wiki pages:
-https://github.com/nokia-developer/space-blok-wp/wiki
+https://github.com/Microsoft/space-blok-wp/wiki
 
 This project is compatible with Windows Phone 7 and Windows Phone 8.
 
@@ -62,11 +64,11 @@ Sound effects are not implemented.
 
 See the license text file delivered with this project. The license file is 
 also available online at:
-https://github.com/nokia-developer/space-blok-wp/blob/master/Licence.txt
+https://github.com/Microsoft/space-blok-wp/blob/master/Licence.txt
 
 The BEPUphysics library is hosted at http://bepu.squarespace.com/ and licensed 
 under Apache 2.0. The Apache 2.0 license file is available online at
-https://github.com/nokia-developer/space-blok-wp/blob/master/bepu_license.txt
+https://github.com/Microsoft/space-blok-wp/blob/master/bepu_license.txt
 and http://bepuphysics.codeplex.com/license.
 
 
